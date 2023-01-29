@@ -11,7 +11,7 @@ class ProductsContainer extends Component {
         <h1 className="text-center">Our Products</h1>
         <div className="row mx-5">
           {productsList.map((product) => {
-            return <ProductsItem key={product.id} />;
+            return <ProductsItem key={product.id} product={product} />;
           })}
         </div>
       </div>
