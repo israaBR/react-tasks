@@ -1,0 +1,9 @@
+input {
+  width: 25%;
+  height: auto;
+  display: block;
+  padding: 5px;
+  margin: 15px 10px;
+  border: 0;
+  border-bottom: 1px solid steelblue;
+}
